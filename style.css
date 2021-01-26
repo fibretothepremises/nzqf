@@ -1,0 +1,78 @@
+:root {
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+
+}
+body {
+    position: relative;
+    background: rgb(199, 35, 63);
+}
+.wrapper {
+    background: pink;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 1.5rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+}
+h1 {
+    color: red;
+    text-shadow: 0.2rem 0.2rem black;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+h2 {
+    border-left: .5rem solid teal;
+    border-top: .5rem solid teal;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-top-left-radius: 1rem;
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+.grid {
+    display: grid;
+    max-width: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);   
+}
+
+.grid-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: teal;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.grid-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+
+}
+p {
+    padding-left: 1rem;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
